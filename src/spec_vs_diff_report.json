@@ -1,0 +1,41 @@
+{
+  "kind": "spec_vs_diff_report",
+  "version": "1.0",
+  "generatedAt": "2026-02-09T19:02:50.352Z",
+  "summary": "Diff implements the WhatsApp-based Contact Form with client-side validation, expands services to seven offerings with anchors and SEO copy, updates address text in the footer, updates multiple page-level SEO titles/descriptions to the new company name, and aligns primary CTAs to “WhatsApp Now” and “Call Contractor”. Potential gaps remain around fully updating visible header/footer branding to the exact full company name everywhere and ensuring the required hero image asset is actually added.",
+  "missing_requirements": [
+    {
+      "id": "REQ-13",
+      "requirement": "Update all user-facing branding text to use the company name “Nihal Plasters & Interior Contractors” across all pages and shared layout components (not just SEO/copyright).",
+      "reason": "The Header and Footer still display the visible brand as “Nihal Plasters” with a secondary line “Interior Contractors”, rather than the exact full company name as one string, so not all user-facing branding text appears updated to “Nihal Plasters & Interior Contractors”.",
+      "evidence": [
+        "frontend/src/components/layout/Header.tsx",
+        "frontend/src/components/layout/Footer.tsx"
+      ]
+    },
+    {
+      "requirement": "Add/provide the required hero banner image asset: “hero-ceiling.dim_1920x1080.png”.",
+      "reason": "HomePage references the image path, but the diff summary does not show the actual image file being added to the repo (no asset addition listed).",
+      "evidence": [
+        "frontend/src/pages/HomePage.tsx"
+      ]
+    }
+  ],
+  "hallucinated_features": [],
+  "confidence": 0.74,
+  "changed_files": [
+    "frontend-file-summaries.txt",
+    "frontend/index.html",
+    "frontend/src/components/contact/ContactForm.tsx",
+    "frontend/src/components/layout/FloatingActions.tsx",
+    "frontend/src/components/layout/Footer.tsx",
+    "frontend/src/components/layout/Header.tsx",
+    "frontend/src/content/siteContent.ts",
+    "frontend/src/pages/AboutPage.tsx",
+    "frontend/src/pages/ContactPage.tsx",
+    "frontend/src/pages/GalleryPage.tsx",
+    "frontend/src/pages/HomePage.tsx",
+    "frontend/src/pages/ServicesPage.tsx",
+    "project_state.json"
+  ]
+}

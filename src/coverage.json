@@ -1,0 +1,115 @@
+{
+  "kind": "coverage_report",
+  "version": "1.0",
+  "generatedAt": "2026-02-09T19:02:50.355Z",
+  "sources": {
+    "buildRequest": true,
+    "implementationPlan": true
+  },
+  "requirements": {
+    "total": 4,
+    "implemented": 4,
+    "items": [
+      {
+        "id": "REQ-13",
+        "summary": "Update all user-facing branding text and SEO metadata to use the company name “Nihal Plasters & Interior Contractors” (instead of “Nihal Plasters & Interior Works”) across all pages and shared layout components, while keeping the existing luxury black/gold theme and overall site structure.",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/content/siteContent.ts",
+          "frontend/src/components/layout/Header.tsx",
+          "frontend/src/components/layout/Footer.tsx",
+          "frontend/index.html",
+          "frontend/src/pages/HomePage.tsx",
+          "frontend/src/pages/AboutPage.tsx",
+          "frontend/src/pages/ServicesPage.tsx",
+          "frontend/src/pages/GalleryPage.tsx",
+          "frontend/src/pages/ContactPage.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/src/content/siteContent.ts",
+          "frontend/src/components/layout/Header.tsx",
+          "frontend/src/components/layout/Footer.tsx",
+          "frontend/index.html",
+          "frontend/src/pages/HomePage.tsx",
+          "frontend/src/pages/AboutPage.tsx",
+          "frontend/src/pages/ServicesPage.tsx",
+          "frontend/src/pages/GalleryPage.tsx",
+          "frontend/src/pages/ContactPage.tsx"
+        ]
+      },
+      {
+        "id": "REQ-14",
+        "summary": "Update the displayed business address, service area copy, and Google Maps embed on the Contact page and Footer to match: “Sattenapalli Road, Dharani Kota, Indian Gas Front, Amaravati, Andhra Pradesh, India”, and update service-area messaging to clearly state the business serves customers all over India.",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/components/layout/Footer.tsx",
+          "frontend/src/pages/ContactPage.tsx",
+          "frontend/src/content/siteContent.ts"
+        ],
+        "matchedFiles": [
+          "frontend/src/components/layout/Footer.tsx",
+          "frontend/src/pages/ContactPage.tsx",
+          "frontend/src/content/siteContent.ts"
+        ]
+      },
+      {
+        "id": "REQ-15",
+        "summary": "Expand the services content and navigation to include the full requested offerings: PVC Ceiling, Gypsum Ceiling, POP Work, Wall Panels, False Ceiling, Interior Decoration, and Material Supply & Contract Work; ensure the Services page, Home services quick-links, and SEO descriptions reflect the expanded list.",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/content/siteContent.ts",
+          "frontend/src/pages/HomePage.tsx",
+          "frontend/src/pages/ServicesPage.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/src/content/siteContent.ts",
+          "frontend/src/pages/HomePage.tsx",
+          "frontend/src/pages/ServicesPage.tsx"
+        ]
+      },
+      {
+        "id": "REQ-16",
+        "summary": "Add a luxury-styled Contact Form section on the Contact page that collects (at minimum) visitor name, phone, city, and message/requirements, validates required fields on the client, and on submit opens WhatsApp to +91 7523029086 with a prefilled, URL-encoded message containing the form details (no backend submission). Also align primary CTA labels across the site to include: “Get Free Quote”, “Call Contractor”, and “WhatsApp Now” where appropriate.",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/components/contact/ContactForm.tsx",
+          "frontend/src/pages/ContactPage.tsx",
+          "frontend/src/pages/HomePage.tsx",
+          "frontend/src/pages/ServicesPage.tsx",
+          "frontend/src/pages/ContactPage.tsx",
+          "frontend/src/components/layout/FloatingActions.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/src/components/contact/ContactForm.tsx",
+          "frontend/src/pages/ContactPage.tsx",
+          "frontend/src/pages/HomePage.tsx",
+          "frontend/src/pages/ServicesPage.tsx",
+          "frontend/src/pages/ContactPage.tsx",
+          "frontend/src/components/layout/FloatingActions.tsx"
+        ]
+      }
+    ]
+  },
+  "changedFiles": [
+    "build-request.json",
+    "feature_evidence.json",
+    "frontend-file-summaries.txt",
+    "frontend-implementation-plan.json",
+    "frontend/index.html",
+    "frontend/public/assets/generated/hero-ceiling.dim_1920x1080.png",
+    "frontend/src/components/contact/ContactForm.tsx",
+    "frontend/src/components/layout/FloatingActions.tsx",
+    "frontend/src/components/layout/Footer.tsx",
+    "frontend/src/components/layout/Header.tsx",
+    "frontend/src/content/siteContent.ts",
+    "frontend/src/pages/AboutPage.tsx",
+    "frontend/src/pages/ContactPage.tsx",
+    "frontend/src/pages/GalleryPage.tsx",
+    "frontend/src/pages/HomePage.tsx",
+    "frontend/src/pages/ServicesPage.tsx",
+    "project_state.json",
+    "scratch/component-selection.json",
+    "spec.md",
+    "spec_vs_diff_report.json"
+  ]
+}

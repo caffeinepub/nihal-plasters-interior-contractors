@@ -1,0 +1,219 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 7,
+  "summary": "Ultra-premium luxury (black + gold + dark grey Islamic-style theme) responsive business website for Nihal Plasters & Interior Contractors (interior contractor + material supply shop) with pages: Home, About, Services, Projects/Gallery (lightbox), Contact, plus a Why Choose Us/Testimonials section; includes modern animations/glassmorphism, SEO-optimized content, fast loading, premium hero banner visuals, global WhatsApp/Call CTAs, Google Maps embed, and a professional logo.",
+  "architectural_notes": [
+    "Include WhatsApp chat and Call Now CTAs globally (e.g., floating buttons) for quick contact.",
+    "Embed Google Maps for the business location on the Contact page.",
+    "Update business name to “Nihal Plasters & Interior Contractors” across site and SEO metadata.",
+    "Update address to: Sattenapalli Road, Dharani Kota, Indian Gas Front, Amaravati, Andhra Pradesh, India (and reflect in Maps embed).",
+    "Include service area messaging: pan-India (services all over India) in hero/about/contact sections.",
+    "Incorporate Islamic luxury branding motifs (mosque/crescent/lantern/arabic patterns) with accessibility/readability safeguards.",
+    "Add primary CTAs: “Get Free Quote”, “Call Contractor”, “WhatsApp Now” in hero and key sections."
+  ],
+  "known_issues": [],
+  "isFixRequest": false,
+  "imageRequirements": "## Required Images\n- Luxury cinematic interior ceiling hero banner image with warm gold lighting and dark ambience (hero-ceiling.dim_1920x1080.png)",
+  "existing_features": [
+    {
+      "id": "feature-create-a-responsive-multi-page-website-for-nihal-plasters-interior-works-with-these-pages-home-about-us-services-gallery-contact-us-each-page-must-be-reachable-via-a-persistent-header-navigation-and-have-a-consistent-footer-with-contact-details",
+      "title": "Create a responsive multi-page website for “Nihal Plasters & Interior Works” with these pages: Home, About Us, Services, Gallery, Contact Us. Each page must be reachable via a persistent header navigation and have a consistent footer with contact details.",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-a-luxury-premium-visual-design-system-using-a-black-gold-islamic-style-theme-across-the-entire-site-colors-typography-spacing-decorative-motifs-pattern-accents-while-keeping-readability-and-accessibility",
+      "title": "Implement a luxury, premium visual design system using a black + gold Islamic-style theme across the entire site (colors, typography, spacing, decorative motifs/pattern accents) while keeping readability and accessibility.",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-write-and-add-professional-english-seo-friendly-content-for-all-pages-sections-hero-headline-subheadline-about-copy-services-descriptions-testimonials-copy-and-contact-copy-tailored-to-the-business-offerings-pvc-ceiling-gypsum-ceiling-pop-wall-panels-false-ceiling-interior-decoration-materials-shop-and-contract-work",
+      "title": "Write and add professional English, SEO-friendly content for all pages/sections: hero headline/subheadline, about copy, services descriptions, testimonials copy, and contact copy tailored to the business offerings (PVC ceiling, gypsum ceiling, POP, wall panels, false ceiling, interior decoration materials shop and contract work).",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-the-home-page-layout-with-premium-hero-section-cta-buttons-for-whatsapp-and-call-quick-services-overview-highlights-usp-section-testimonials-preview-and-a-gallery-preview-leading-to-the-full-gallery-page",
+      "title": "Create the Home page layout with: premium hero section (CTA buttons for WhatsApp and Call), quick services overview, highlights/USP section, testimonials preview, and a gallery preview leading to the full Gallery page.",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-the-services-page-with-a-structured-premium-presentation-of-the-six-services-pvc-ceiling-gypsum-ceiling-pop-work-wall-panels-interior-design-material-shop-including-benefit-focused-bullet-points-and-a-cta-to-contact-via-whatsapp-call",
+      "title": "Build the Services page with a structured, premium presentation of the six services (PVC Ceiling, Gypsum Ceiling, POP Work, Wall Panels, Interior Design, Material Shop), including benefit-focused bullet points and a CTA to contact via WhatsApp/call.",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-a-gallery-page-that-displays-images-with-captions-and-supports-a-popup-lightbox-viewer-for-browsing-images-next-prev-close-keyboard-esc-close",
+      "title": "Implement a Gallery page that displays images with captions and supports a popup/lightbox viewer for browsing images (next/prev, close, keyboard ESC close).",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-contact-us-page-that-prominently-displays-owner-name-shaik-nihal-ahmad-mobile-whatsapp-7523029086-phone-9291680966-email-nmd785621-gmail-com-and-location-tadepalli-guntur-andhra-pradesh-plus-a-whatsapp-chat-button-call-now-button-and-an-embedded-google-maps-view-of-the-location",
+      "title": "Create a Contact Us page that prominently displays: Owner name (Shaik Nihal Ahmad), Mobile & WhatsApp (7523029086), Phone (9291680966), Email (nmd785621@gmail.com), and Location (Tadepalli, Guntur, Andhra Pradesh), plus a WhatsApp chat button, Call Now button, and an embedded Google Maps view of the location.",
+      "reqIds": [
+        "REQ-7"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-persistent-floating-quick-action-buttons-whatsapp-chat-and-call-now-visible-on-all-pages-and-optimized-for-mobile-non-intrusive-placement-accessible-labels",
+      "title": "Add persistent floating quick-action buttons: WhatsApp chat and Call Now, visible on all pages and optimized for mobile (non-intrusive placement, accessible labels).",
+      "reqIds": [
+        "REQ-8"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-seo-essentials-per-page-title-and-meta-description-semantic-landmarks-open-graph-tags-and-a-basic-sitemap-robots-setup-appropriate-for-a-static-business-site",
+      "title": "Add SEO essentials: per-page title and meta description, semantic landmarks, Open Graph tags, and a basic sitemap/robots setup appropriate for a static business site.",
+      "reqIds": [
+        "REQ-9"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-include-a-clean-premium-logo-suggestion-for-nihal-plasters-and-render-it-in-the-header-and-footer-as-a-static-asset-no-backend-serving",
+      "title": "Include a clean, premium logo suggestion for “Nihal Plasters” and render it in the header and footer as a static asset (no backend serving).",
+      "reqIds": [
+        "REQ-10"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-a-new-request-a-change-ui-on-the-contact-page-that-lets-a-visitor-specify-what-they-want-to-change-on-the-website-page-section-free-text-details-and-then-opens-whatsapp-to-91-7523029086-with-a-prefilled-url-encoded-message-containing-the-entered-information",
+      "title": "Add a new “Request a Change” UI on the Contact page that lets a visitor specify what they want to change on the website (page/section + free-text details) and then opens WhatsApp to +91 7523029086 with a prefilled, URL-encoded message containing the entered information.",
+      "reqIds": [
+        "REQ-11"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-an-additional-entry-point-to-the-new-request-a-change-flow-from-the-global-footer-so-users-can-find-it-from-any-page-e-g-a-request-a-change-link-that-navigates-to-the-contact-page-and-scrolls-to-the-new-section-or-opens-the-whatsapp-prefilled-message-directly",
+      "title": "Add an additional entry point to the new “Request a Change” flow from the global footer so users can find it from any page (e.g., a “Request a Change” link that navigates to the Contact page and scrolls to the new section, or opens the WhatsApp prefilled message directly).",
+      "reqIds": [
+        "REQ-12"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-all-user-facing-branding-text-and-seo-metadata-to-use-the-company-name-nihal-plasters-interior-contractors-instead-of-nihal-plasters-interior-works-across-all-pages-and-shared-layout-components-while-keeping-the-existing-luxury-black-gold-theme-and-overall-site-structure",
+      "title": "Update all user-facing branding text and SEO metadata to use the company name “Nihal Plasters & Interior Contractors” (instead of “Nihal Plasters & Interior Works”) across all pages and shared layout components, while keeping the existing luxury black/gold theme and overall site structure.",
+      "reqIds": [
+        "REQ-13"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-displayed-business-address-service-area-copy-and-google-maps-embed-on-the-contact-page-and-footer-to-match-sattenapalli-road-dharani-kota-indian-gas-front-amaravati-andhra-pradesh-india-and-update-service-area-messaging-to-clearly-state-the-business-serves-customers-all-over-india",
+      "title": "Update the displayed business address, service area copy, and Google Maps embed on the Contact page and Footer to match: “Sattenapalli Road, Dharani Kota, Indian Gas Front, Amaravati, Andhra Pradesh, India”, and update service-area messaging to clearly state the business serves customers all over India.",
+      "reqIds": [
+        "REQ-14"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-expand-the-services-content-and-navigation-to-include-the-full-requested-offerings-pvc-ceiling-gypsum-ceiling-pop-work-wall-panels-false-ceiling-interior-decoration-and-material-supply-contract-work-ensure-the-services-page-home-services-quick-links-and-seo-descriptions-reflect-the-expanded-list",
+      "title": "Expand the services content and navigation to include the full requested offerings: PVC Ceiling, Gypsum Ceiling, POP Work, Wall Panels, False Ceiling, Interior Decoration, and Material Supply & Contract Work; ensure the Services page, Home services quick-links, and SEO descriptions reflect the expanded list.",
+      "reqIds": [
+        "REQ-15"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-a-luxury-styled-contact-form-section-on-the-contact-page-that-collects-at-minimum-visitor-name-phone-city-and-message-requirements-validates-required-fields-on-the-client-and-on-submit-opens-whatsapp-to-91-7523029086-with-a-prefilled-url-encoded-message-containing-the-form-details-no-backend-submission-also-align-primary-cta-labels-across-the-site-to-include-get-free-quote-call-contractor-and-whatsapp-now-where-appropriate",
+      "title": "Add a luxury-styled Contact Form section on the Contact page that collects (at minimum) visitor name, phone, city, and message/requirements, validates required fields on the client, and on submit opens WhatsApp to +91 7523029086 with a prefilled, URL-encoded message containing the form details (no backend submission). Also align primary CTA labels across the site to include: “Get Free Quote”, “Call Contractor”, and “WhatsApp Now” where appropriate.",
+      "reqIds": [
+        "REQ-16"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Create multi-page website: Home, About Us, Services, Gallery, Contact",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-2",
+      "summary": "Luxury premium black + gold Islamic-style theme and modern responsive mobile-friendly design",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-3",
+      "summary": "Services page content/sections for PVC Ceiling, Gypsum Ceiling, POP Work, Wall Panels, Interior Design, Material Shop",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-4",
+      "summary": "Gallery page with popup/lightbox images and captions",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-5",
+      "summary": "Contact page with WhatsApp chat button, Call Now button, email details, and Google Maps location embed",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-6",
+      "summary": "Add customer testimonials section",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-7",
+      "summary": "Write professional English SEO-friendly content for all website sections/pages",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-8",
+      "summary": "Provide a clean logo suggestion for 'Nihal Plasters'",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-9",
+      "summary": "Add Contact Form on Contact page (in addition to WhatsApp/Call)",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-10",
+      "summary": "Add modern luxury UI effects: animations, smooth scroll, parallax sections, glassmorphism, gold gradients/glowing borders",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-11",
+      "summary": "Add fast-loading performance optimizations for static business site",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "Nihal Plasters & Interior Contractors",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

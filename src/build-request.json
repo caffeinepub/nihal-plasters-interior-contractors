@@ -1,0 +1,109 @@
+{
+  "kind": "build_request",
+  "title": "Update branding details, services list, and add a Contact Form for Nihal Plasters & Interior Contractors",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-13",
+      "text": "Update all user-facing branding text and SEO metadata to use the company name “Nihal Plasters & Interior Contractors” (instead of “Nihal Plasters & Interior Works”) across all pages and shared layout components, while keeping the existing luxury black/gold theme and overall site structure.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-user-1"
+        ],
+        "quotes": [
+          "Company Name: Nihal Plasters & Interior Contractors"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Home/About/Services/Gallery/Contact page SEO titles/descriptions no longer contain “Interior Works”.",
+        "Header and Footer brand text/copyright use “Nihal Plasters & Interior Contractors”.",
+        "No broken routes or navigation labels after the rename."
+      ]
+    },
+    {
+      "id": "REQ-14",
+      "text": "Update the displayed business address, service area copy, and Google Maps embed on the Contact page and Footer to match: “Sattenapalli Road, Dharani Kota, Indian Gas Front, Amaravati, Andhra Pradesh, India”, and update service-area messaging to clearly state the business serves customers all over India.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-user-1"
+        ],
+        "quotes": [
+          "Shop Address:\nSattenapalli Road, Dharani Kota, Indian Gas Front, Amaravati, Andhra Pradesh, India",
+          "Service Area:\nWe provide interior contract services all over India and can take projects anywhere."
+        ]
+      },
+      "acceptanceCriteria": [
+        "Contact page location text shows the new Amaravati address.",
+        "Footer location text shows the new Amaravati address.",
+        "The embedded Google Maps iframe points to the updated address (or a map view that clearly corresponds to Amaravati / the provided address).",
+        "Service area copy on Contact page and About page communicates “all over India” (not limited to specific cities)."
+      ]
+    },
+    {
+      "id": "REQ-15",
+      "text": "Expand the services content and navigation to include the full requested offerings: PVC Ceiling, Gypsum Ceiling, POP Work, Wall Panels, False Ceiling, Interior Decoration, and Material Supply & Contract Work; ensure the Services page, Home services quick-links, and SEO descriptions reflect the expanded list.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-user-1"
+        ],
+        "quotes": [
+          "Services include:\n- PVC Ceiling\n- Gypsum Ceiling\n- POP Work\n- Wall Panels\n- False Ceiling\n- Interior Decoration\n- Material Supply & Contract Work"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Services page displays all requested services as individual entries with descriptions and benefit bullets in the same premium style as existing services.",
+        "Home page “Our Services” grid links correctly to the corresponding anchors for all services (including newly added ones).",
+        "Services page SEO title/description mention the updated/expanded services set (no missing major items like False Ceiling or Material Supply & Contract Work)."
+      ]
+    },
+    {
+      "id": "REQ-16",
+      "text": "Add a luxury-styled Contact Form section on the Contact page that collects (at minimum) visitor name, phone, city, and message/requirements, validates required fields on the client, and on submit opens WhatsApp to +91 7523029086 with a prefilled, URL-encoded message containing the form details (no backend submission). Also align primary CTA labels across the site to include: “Get Free Quote”, “Call Contractor”, and “WhatsApp Now” where appropriate.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-user-1"
+        ],
+        "quotes": [
+          "Features to Add:\n- Contact Form",
+          "Add call-to-action buttons: “Get Free Quote”, “Call Contractor”, “WhatsApp Now”."
+        ]
+      },
+      "acceptanceCriteria": [
+        "A visible Contact Form appears on the Contact page with luxury styling consistent with the site theme.",
+        "Submitting the form opens a WhatsApp chat to https://wa.me/917523029086 with a prefilled message that includes the entered fields.",
+        "Required fields are validated before opening WhatsApp (clear inline errors, no submission when invalid).",
+        "At least one prominent CTA uses the exact label “Call Contractor”, and WhatsApp CTAs use “WhatsApp Now” where they are primary actions (without removing existing phone/WhatsApp functionality)."
+      ]
+    }
+  ],
+  "constraints": [
+    "Frontend immutable paths must not be edited: frontend/src/hooks/useInternetIdentity.ts, frontend/src/hooks/useInternetIdentity.tsx, frontend/src/hooks/useActor.ts, frontend/src/main.tsx, frontend/src/components/ui.",
+    "Do not add backend form handling; keep the app functioning as a static business site with client-side actions (tel:, mailto:, wa.me, Google Maps embed).",
+    "Respect single-actor backend architecture; no new canisters/services."
+  ],
+  "nonGoals": [
+    "Custom domain configuration or fixing domain validation issues.",
+    "Adding third-party authentication providers (only Internet Identity is supported).",
+    "Persisting form submissions to a database or sending emails via external providers."
+  ],
+  "imageRequirements": {
+    "required": [
+      "Luxury cinematic interior ceiling hero banner image with warm gold lighting and dark ambience (hero-ceiling.dim_1920x1080.png)"
+    ],
+    "edits": []
+  },
+  "userProfileUpdate": {
+    "goalsToAdd": [],
+    "goalsToRemove": [],
+    "preferencesToAdd": [],
+    "preferencesToRemove": [],
+    "miscToAdd": [],
+    "miscToRemove": [],
+    "fieldsToSet": {},
+    "fieldsToDelete": []
+  }
+}
